@@ -1,0 +1,190 @@
+<!-- NAVIGATION -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+
+  <button
+    id="themeButton"
+    onclick="
+      if (document.body.style.backgroundColor === 'rgb(17, 17, 17)') {
+        document.body.style.backgroundColor = '#f5f5f5';
+        document.body.style.color = '#222';
+        this.textContent = '🌙';
+      } else {
+        document.body.style.backgroundColor = '#111';
+        document.body.style.color = 'white';
+        this.textContent = '☀️';
+      }
+    "
+  >🌙</button>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="hero-content">
+
+  <img
+  src="https://i.ibb.co/jP2tdd9g/IMG-4044.jpg"
+  alt="Israel"
+  class="profile-pic"
+  style="
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+  "
+>
+
+    <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+    <h1>Hi, I'm <span>Israel</span> 👋</h1>
+
+    <h2>Web Developer &amp; Creative Designer</h2>
+
+    <p class="hero-text">
+      I create modern websites and digital experiences.
+      I'm passionate about technology, design, and learning new things.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="button">View My Work</a>
+      <a href="#contact" class="button secondary-button">Contact Me</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+
+  <p>
+    I'm learning coding and web development.
+    This is my personal website and portfolio.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>My Skills</h2>
+
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Web Design</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <p class="section-intro">
+    Here are some of the projects I'm working on and learning from.
+  </p>
+
+  <div class="projects">
+
+    <div class="project-card">
+      <div class="project-icon">🌐</div>
+      <h3>Personal Website</h3>
+
+      <p>
+        A personal portfolio website built with HTML,
+        CSS, and JavaScript.
+      </p>
+
+      <a href="#contact">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🎨</div>
+      <h3>Web Design</h3>
+
+      <p>
+        A creative web design project focused on clean
+        layouts and modern user experiences.
+      </p>
+
+      <a href="#contact">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">💡</div>
+      <h3>Future Project</h3>
+
+      <p>
+        More projects and ideas will be added as I
+        continue learning.
+      </p>
+
+      <a href="#contact">Coming Soon</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <p class="section-intro">
+    Have a project or idea? Send me a message.
+  </p>
+
+  <form
+    class="contact-form"
+    action="https://formspree.io/f/xzedekek"
+    method="POST"
+  >
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+    >
+
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+    >
+
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      rows="6"
+      required
+    ></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://wa.me/2348109389583">WhatsApp</a>
+    <a href="https://www.tiktok.com/@lucidayo8">TikTok</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <h3>Israel</h3>
+
+  <p>Web Developer &amp; Creative Designer</p>
+
+  <div class="footer-links">
+    <a href="https://wa.me/2348109389583">WhatsApp</a>
+    <a href="https://www.tiktok.com/@lucidayo8">TikTok</a>
+  </div>
+
+  <p class="copyright">
+    © 2026 Israel. All rights reserved.
+  </p>
+</footer>
